@@ -1,14 +1,19 @@
 Para fazer um formulario colocamos ele entre as tags de abertura/fechamento FORM
 
-tipos de input:
+form autocomplete="off" - desliga o autocomplete dos formularios
+form action="cadastro.php" - é para aonde vamos enviar os dados do formulario
+
+Tipos de input:
 --------------------
 input:text = para 
-    > name =
-    > id =
+    > name = nome do input de entrada util para o php e html
+    > id = Util para o label e javascript
 -------------------- 
 input:submit = para envio dos valores
     > value = nome do botão que irá aparecer no site
 
+
+label = todo label tem que ter o FOR com o mesmo nome do ID do input
 
 
 
