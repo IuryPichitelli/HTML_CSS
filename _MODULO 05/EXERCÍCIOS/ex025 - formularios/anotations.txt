@@ -1,0 +1,17 @@
+Para fazer um formulario colocamos ele entre as tags de abertura/fechamento FORM
+
+tipos de input:
+--------------------
+input:text = para 
+    > name =
+    > id =
+-------------------- 
+input:submit = para envio dos valores
+    > value = nome do botão que irá aparecer no site
+
+
+
+
+
+
+
