@@ -19,7 +19,16 @@ input:submit = para envio dos valores
 label = todo label tem que ter o FOR com o mesmo nome do ID do input
 obs: o label é bem útil para dispositivos mobile, pois cria uma area maior clicável
 
+-------- METODO DE ENVIO DOS FORMULARIOS ------------
 
+GET = Dados enviados na url, aparece na url, fácil de compartilhar (Link compatilhavel), menos seguro. Quantidade de betys limitada até 3000 bytes
+    > Quando usar GET?
+        - Quando os dados não são sensíveis
+POST = Dados são enviados dentro do body da requisiçaõ, mais seguro (ainda dá para interceptar). Tamanho ilimitado.
+    > Quando usar POST?
+        - Quando os dados forem sensíveis (senha, cartão de crédito, fotos)
+        - Dados acima de 3000 bytes
+        - Envio de arquivos
 
 
 
