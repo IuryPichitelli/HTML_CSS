@@ -4,14 +4,9 @@
     margin: 0;
 }
 
+
 #body_fundo_001{
     background-image: url('../images/wallpaper001.jpg');
-}
-
-#body_fundo_002{
-    background-image: url('../images/mascote.png');
-    background-size: 100px 100px;
-    background-repeat: repeat-y;
 }
 
 main{
@@ -40,4 +35,61 @@ div#q2{
 
 div#q3{
     background-image: url('../images/pattern003.png');
+}
+
+/* Fundo002*/
+
+#body_fundo_002{
+    background-image: url('../images/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    
+}
+
+/* Fundo003*/
+
+.bloco{
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 20px;
+    background-image: url('../images/wallpaper003.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quadro1{
+    background-position: left top;
+}
+#quadro2{
+    background-position: left center;
+}
+#quadro3{
+    background-position: right bottom;
+}
+#quadro4{
+    background-position: center center;
+}
+
+/* Fundo004*/
+
+#body_fundo_004{
+    background-image: url('../images/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px dashed black;
+    height: 100vh;   
+    margin: 5px;
+}
+
+
+/* Fundo004*/
+
+#body_fundo_005{
+    background-image: url('../images/wallpaper003.jpg');
+    background-position: center center;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

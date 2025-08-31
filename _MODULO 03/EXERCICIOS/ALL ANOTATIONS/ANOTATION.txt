@@ -16,9 +16,15 @@ license = MIT
 QrCode generator = criar o qrCode do site
 
 ****************************************************************************************************
+Background-image: url() = colocamos a url da imagem, podendo ser nos próprios arquivos do site ou por um link (não muito recomendado)
 
-
-
+Background-repeat: no-repeat = a imagem não se repete
+Background-repeat: repeat-y ou repeat-x: repete em uma linha na horizontal ou vertical
+Background-size: 100px 100px; tamanho da imagem de fundo
+Background-size:
+Background-size:
+Background-size:
+Background-position:
 
 
 
