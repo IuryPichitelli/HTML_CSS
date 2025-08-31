@@ -9,7 +9,9 @@
 }
 
 #body_fundo_002{
-    background-image: url('https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png');
+    background-image: url('../images/mascote.png');
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
 }
 
 main{
