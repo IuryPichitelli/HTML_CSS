@@ -4,14 +4,34 @@
     margin: 0;
 }
 
-
 #body_fundo_001{
     background-image: url('../images/wallpaper001.jpg');
 }
 
 main{
     display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: 1px solid black;
 }
+
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('../images/wallpaper002.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+h1{
+    margin: 10px 0px;
+}
+
 
 div.quadrado{
     border: 2px solid black;

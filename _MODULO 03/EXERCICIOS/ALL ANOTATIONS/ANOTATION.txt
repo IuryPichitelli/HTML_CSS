@@ -21,9 +21,9 @@ Background-image: url() = colocamos a url da imagem, podendo ser nos próprios a
 Background-repeat: no-repeat = a imagem não se repete
 Background-repeat: repeat-y ou repeat-x: repete em uma linha na horizontal ou vertical
 Background-size: 100px 100px; tamanho da imagem de fundo
-Background-size:
-Background-size:
-Background-size:
+Background-size: contain = faz com que a imagem seja 100% exibida
+Background-size: 100% 100%;
+Background-size: cover = faz cortes na imagem, mas exibe na tela inteira
 Background-position:
 
 
