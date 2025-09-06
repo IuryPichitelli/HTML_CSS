@@ -24,7 +24,12 @@ Background-size: 100px 100px; tamanho da imagem de fundo
 Background-size: contain = faz com que a imagem seja 100% exibida
 Background-size: 100% 100%;
 Background-size: cover = faz cortes na imagem, mas exibe na tela inteira
-Background-position:
+Background-attachment: scroll = rodou o conteudo rodou o fundo
+
+shorthand - background
+    Bg-image > bg-position > /bg-size > bg-repeat > bg-attachment > bg-origin > bg-clip > bg-color;
+    
+    Observação: para que o background-size funcione é necessário colocar um / depois do background-repeat;
 
 
 
