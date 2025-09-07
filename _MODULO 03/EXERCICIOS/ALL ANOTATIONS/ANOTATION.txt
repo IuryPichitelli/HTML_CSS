@@ -30,7 +30,8 @@ shorthand - background
     Bg-image > bg-position > /bg-size > bg-repeat > bg-attachment > bg-origin > bg-clip > bg-color;
     
     Observação: para que o background-size funcione é necessário colocar um / depois do background-repeat;
-
+    
+****************************************************************************************************
 
 
 
