@@ -5,11 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <title>Fundo fixo de tela 07</title>
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+
+            background-image: url('./images/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 97vh;
+            padding: 10px;
+            background-color: purple;
+            margin: 5px;
+        }
+
+        #conteudo{
+            background-image: url('./images/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+
+        }
+
+    </style>
 </head>
 <div class="bgPage007">
     <section id="container">
-        <article >
+        <article id="conteudo">
 
         </article>
     </section>

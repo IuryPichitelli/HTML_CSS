@@ -30,11 +30,13 @@ shorthand - background
     Bg-image > bg-position > /bg-size > bg-repeat > bg-attachment > bg-origin > bg-clip > bg-color;
     
     Observação: para que o background-size funcione é necessário colocar um / depois do background-repeat;
-    
+
 ****************************************************************************************************
 
+Para centralizar um conteudo no meio de um container por exemplo devemos aplicar as seguintes propriedades e valores
 
-
+o CONTAINER deve ter a seu POSITION: relative;
+o CONTEUDO dever ter o seu POSITION: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%)
 
 
 
