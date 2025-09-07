@@ -37,7 +37,4 @@ Para centralizar um conteudo no meio de um container por exemplo devemos aplicar
 
 o CONTAINER deve ter a seu POSITION: relative;
 o CONTEUDO dever ter o seu POSITION: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%)
-
-
-
-
+Outra forma: CONTAINER deve ter display: flex; justify-content: center; align-items: center;
