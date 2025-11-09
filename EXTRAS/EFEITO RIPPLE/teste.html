@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito Ripple</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'outfit', sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button{
+            padding: 60px 100px;
+            background-color: #282828;
+            color: white;
+            border-radius: 120px;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button span{
+            font-size: 30px;
+            position: relative;
+        }
+
+        .button::before{
+            content: '';
+            background-color: orange;
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            top: var(--eixoY);
+            left: var(--eixoX);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width .6s, height .6s;
+        }
+
+        .button:hover::before{
+            width: 1000px;
+            height: 1000px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <a href="#" class="button"> <span>INCREVA-SE</span></a>
+    <script src="script/hoverEffect.js"></script>
+</body>
+</html>
