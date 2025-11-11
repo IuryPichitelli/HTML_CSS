@@ -1,0 +1,6 @@
+Hieraquia de tabelas (simples)
+
+TABLE = tabelas
+    TABLE ROW = linha de tabelas
+        TABLE HEADER = cabeçalho de tabela
+        TABLE DATA = dado de tabela
