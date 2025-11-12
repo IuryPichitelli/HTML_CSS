@@ -4,3 +4,13 @@ TABLE = tabelas
     TABLE ROW = linha de tabelas
         TABLE HEADER = cabeçalho de tabela
         TABLE DATA = dado de tabela
+
+ANATOMIA TABELAS GRANDES
+
+TABLE
+    THEAD
+        TR, TD,TH
+    TBODY
+        TR, TD, TH
+    TFOOT
+        TR, TD, TH
