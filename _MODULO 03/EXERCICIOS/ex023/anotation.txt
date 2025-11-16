@@ -8,9 +8,20 @@ TABLE = tabelas
 ANATOMIA TABELAS GRANDES
 
 TABLE
+    CAPTION
     THEAD
         TR, TD,TH
     TBODY
         TR, TD, TH
     TFOOT
         TR, TD, TH
+
+
+th scope='col' é quando os dados estão abaixo do th
+
+th scope='row' é quando os dados estão na mesma linha do th
+
+tr:nth-child(2n) : o 2n significa que sera de dois em dois o efeito zebrado (pares)
+tr:nth-child(even): tambem fara nas rows pares
+tr:nth-child(odd) : irá colorir apenas as rows 
+tr:nth-child(2n-1): tambem fara o efeito zebrado nos impares
