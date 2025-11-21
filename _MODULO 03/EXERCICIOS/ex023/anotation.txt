@@ -18,10 +18,17 @@ TABLE
 
 
 th scope='col' é quando os dados estão abaixo do th
-
 th scope='row' é quando os dados estão na mesma linha do th
+
+th scope="rowgroup" é quando o row abrange mais de um col de dados
+th scope="colgroup" é quando a coluna abrange mais de uma row de dados
 
 tr:nth-child(2n) : o 2n significa que sera de dois em dois o efeito zebrado (pares)
 tr:nth-child(even): tambem fara nas rows pares
 tr:nth-child(odd) : irá colorir apenas as rows 
 tr:nth-child(2n-1): tambem fara o efeito zebrado nos impares
+
+<colgroup>
+        <col class="cNome"> cria uma classe para a primeira coluna
+        <col class="cGrupo" span="3"> cria uma classe que abrange as 3 proximas colunas
+</colgroup>
