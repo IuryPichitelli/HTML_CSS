@@ -1,0 +1,37 @@
+<iframe src="../paginasExtras/page004.html" frameborder="1" sandbox="sandbox" referrerpolicy="no-referrer">
+
+sandbox="sandbox" - O uso de sandbox não permite que o site dentro do iframe consiga pegar os dados do usuário, pois o submit não 
+
+sandbox → todos abaixo ativos 
+allow-forms → permite envio de formulários
+allow-scripts → permite execução de JavaScript
+allow-same-origin → iframe é tratado como mesma origem
+allow-popups → permite abrir janelas/abas (window.open)
+allow-popups-to-escape-sandbox → popups fora do sandbox
+allow-modals → permite alert, confirm, prompt
+allow-downloads → permite downloads
+allow-downloads-without-user-activation → download automático
+allow-top-navigation → pode redirecionar a página principal
+allow-top-navigation-by-user-activation → redireciona só com clique
+allow-presentation → permite modo apresentação (ex: slides)
+allow-pointer-lock → permite capturar o mouse
+allow-orientation-lock → permite travar orientação da tela
+
+=================================================================================================
+
+referrerpolicy="no-referrer" - nenhuma informação de origem é enviada ao servidor de destino.
+Ou seja, o site que recebe a requisição não saberá de onde o usuário veio (abrir um link, carregar uma imagem, iframe, script etc.)
+
+no-referrer → não envia referer
+no-referrer-when-downgrade (padrão) → envia, exceto HTTPS → HTTP
+origin → envia só a origem (https://site.com)
+origin-when-cross-origin → origem para outros sites, URL completa no mesmo site
+same-origin → envia apenas para a mesma origem
+strict-origin → envia origem, mas não de HTTPS → HTTP
+strict-origin-when-cross-origin (mais usado hoje) →
+mesma origem: URL completa
+origem diferente: só a origem
+HTTPS → HTTP: não envia
+unsafe-url → envia URL completa sempre (não recomendado)
+
+=================================================================================================
