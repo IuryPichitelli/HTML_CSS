@@ -14,5 +14,48 @@
 body{
     background-image: var(--backgImg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#iframPhone{
+    width: 311px;
+    height: 641px;
+}
+
+.containerButtons ul{
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.containerButtons ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.containerButtons ul li a{
+    display: block;
+}
+
+.containerButtons ul li a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: translateX .9s ease-in;
+}
+
+.containerButtons ul li a img:hover{
+    outline: 1px solid white;
+    transform: scale(1.05);
+    transform: translateX(-4px);
+    transition: transform .3s ease-in;
+    transition: outline .5s ease-in-out;
+    
+    box-shadow: 10px 10px 10px black;
 }
