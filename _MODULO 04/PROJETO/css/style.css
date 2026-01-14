@@ -41,21 +41,18 @@ body{
 
 .containerButtons ul li a{
     display: block;
+    text-decoration: none;
 }
 
 .containerButtons ul li a img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    transition: translateX .9s ease-in;
+    transition: transform .2s ease, outline .8s ease;
 }
 
 .containerButtons ul li a img:hover{
-    outline: 1px solid white;
-    transform: scale(1.05);
-    transform: translateX(-4px);
-    transition: transform .3s ease-in;
-    transition: outline .5s ease-in-out;
-    
-    box-shadow: 10px 10px 10px black;
+    outline: 2px solid white;
+    transform: scale(1.02) translateX(-4px);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.555);
 }
