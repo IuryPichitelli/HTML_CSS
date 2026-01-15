@@ -55,12 +55,17 @@ body{
 
 #containerAbsolute{
     position: absolute;
-    left: 40%;
-    top: 26%;
+    left: 9%;
+    top: 14%;
 }
 
+.contaierCelular{
+    position: relative;
+}
+
+
 #telaHome{
-    margin: -4px -2px -5px 0;
+    margin: -7px -4px 0px -4px;
     width: 267px;
     height: 470px;
     position: relative;
