@@ -23,10 +23,6 @@ body{
     justify-content: center;
 }
 
-#iframPhone{
-    width: 311px;
-    height: 641px;
-}
 
 .containerButtons ul{
     position: absolute;
@@ -55,4 +51,22 @@ body{
     outline: 2px solid white;
     transform: scale(1.02) translateX(-4px);
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.555);
+}
+
+#containerAbsolute{
+    position: absolute;
+    left: 40%;
+    top: 26%;
+}
+
+#telaHome{
+    margin: -4px -2px -5px 0;
+    width: 267px;
+    height: 470px;
+    position: relative;
+}
+
+#iframPhone{
+    width: 311px;
+    height: 627px;
 }
