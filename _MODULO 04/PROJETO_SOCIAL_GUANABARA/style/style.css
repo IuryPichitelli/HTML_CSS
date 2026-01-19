@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center / cover fixed ;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#telefone{
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
